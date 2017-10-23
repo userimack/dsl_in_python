@@ -6,7 +6,7 @@ sys.path.insert(0, './modules/')
 
 # source file as first argument
 if len(sys.argv) != 2:
-    print("usage: %s <src.dsl>" % sys.argv[1])
+    print("usage: %s <src.dsl>" % sys.argv[0])
     sys.exit(1)
 
 with open(sys.argv[1], 'r') as file_obj:
